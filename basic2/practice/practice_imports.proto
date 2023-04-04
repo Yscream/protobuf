@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "practice_same_level_message.proto";
+
+message Imports {
+    City city = 1;
+    Street street = 2;
+    Building building = 3;
+}

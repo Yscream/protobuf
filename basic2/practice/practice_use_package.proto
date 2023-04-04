@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "practice_package.proto";
+
+message Country {
+    my.practice.City city = 1;
+    my.practice.Street street = 2;
+    my.practice.Building building = 3;
+}
